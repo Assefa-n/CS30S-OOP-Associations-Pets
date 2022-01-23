@@ -61,7 +61,7 @@ public class PetOwnerDriver {
         System.out.println(p1.getOwner().getName());
     
         System.out.println("---- Pets ----");
-        System.out.println(p2);
+        System.out.println(p2.toString());
         System.out.println(p1);
         
         System.out.println();
