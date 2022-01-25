@@ -49,7 +49,7 @@ public class PetOwnerDriver {
     // ***** Get Input *****
     // ***** Main Processing *****
     
-        System.out.println(p1.getName());
+        //System.out.println(p1.getName());
         //System.out.println(p2);
         
         //System.out.println(o1);
@@ -57,6 +57,11 @@ public class PetOwnerDriver {
         // set up associations
         associations(p1, o1);
         associations(p2, o2);
+        
+        PetOwner o3 = new PetOwner("Don o");
+        associations(new Pet("Pihchy", "Lobster"), o3);
+        
+        System.out.println(o3.getPet());
         
         System.out.println(p1.getOwner().getName());
     
